@@ -10,9 +10,10 @@ font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
 font-size: 14px;
+color: #151515;
 }
 li a:hover{
-    color: #FE0000;
+    color: #EC1D25;
 }
 
 nav{
