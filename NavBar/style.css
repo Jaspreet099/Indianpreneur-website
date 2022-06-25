@@ -5,12 +5,12 @@ html{
     background-color: black;
 }
 
-li {
+li a {
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
 font-size: 14px;
-color: #151515;
+/* color: #151515 */
 }
 li a:hover{
     color: #EC1D25;
