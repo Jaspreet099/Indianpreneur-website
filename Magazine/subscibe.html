@@ -29,10 +29,10 @@
         <div class="container flex flex-wrap justify-between items-center mx-auto">
             <a href="../index.html" class="flex items-center">
                 <img src="../Images/Indianpreneur logo.png" class="mr-3 h-14 sm:h-16" alt="Indianpreneur logo">
-                <!-- <span class="self-center text-xl font-semibold whitespace-nowrap ">Flowbite</span> -->
+                <!-- <span class="self-center text-xl font-semibold blackspace-nowrap ">Flowbite</span> -->
             </a>
             <button data-collapse-toggle="mobile-menu" type="button"
-                class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-900  dark:focus:ring-gray-600"
+                class="inline-flex items-center p-2 ml-3  text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-900  dark:focus:ring-gray-600"
                 aria-controls="mobile-menu" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -47,7 +47,7 @@
                 </svg>
             </button>
             <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
-                <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+                <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md: md:font-medium">
                     <li>
                         <a href="#"
                             class=" block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-900  ">Article</a>
@@ -82,27 +82,42 @@
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-wrap w-full mb-20">
             <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
-              <h1 class="head ">Indianpreneur Magazine</h1>
+              <h1 class="head ">Subscibe to Indianpreneur Magazine</h1>
               <div class="mt-1 h-1 w-24 bg-red-600 rounded"></div>
-              <div class="mt-6"> <button
-                class="PrimaryBtn  text-lg"><a
-                  href="./subscibe.html">Subscibe Free</a></button></div>
             </div>
            
             <!-- <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p> -->
           </div>
 
-          <!-- single magazine section  -->
-          <div class="Maga flex flex-wrap -m-4">
-            <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class="bg-gray-100 p-6 rounded-lg">
-                <img class=" rounded w-full object-cover object-center mb-6" src="../Images/magazine1.png" alt="content">
-                <!-- <h3 class="tracking-widest">July 2022</h3> -->
-                <h2 class="text-lg  ">10 Influential Indianpreneur to Watch Worldwide 2022</h2>
-                <!-- <p class="leading-relaxed ">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p> --> 
+          <form class="sub-form">
+            <div class="relative z-0 w-full mb-6 group">
+                <input type="email" name="floating_email" class="block py-2.5 px-0 w-full  text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-black dark:border-gray-600 dark:focus:border-black-500 focus:outline-none focus:ring-0 focus:border-black-600 peer" placeholder=" " required="">
+                <label for="floating_email" class="peer-focus:font-medium absolute  text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-black-600 peer-focus:dark:text-black-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email address</label>
+            </div>
+            <div class="grid xl:grid-cols-2 xl:gap-6">
+              <div class="relative z-0 w-full mb-6 group">
+                  <input type="text" name="floating_first_name" id="floating_first_name" class="block py-2.5 px-0 w-full  text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-black dark:border-gray-600 dark:focus:border-black-500 focus:outline-none focus:ring-0 focus:border-black-600 peer" placeholder=" " required="">
+                  <label for="floating_first_name" class="peer-focus:font-medium absolute  text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-black-600 peer-focus:dark:text-black-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">First name</label>
+              </div>
+              <div class="relative z-0 w-full mb-6 group">
+                  <input type="text" name="floating_last_name" id="floating_last_name" class="block py-2.5 px-0 w-full  text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-black dark:border-gray-600 dark:focus:border-black-500 focus:outline-none focus:ring-0 focus:border-black-600 peer" placeholder=" " required="">
+                  <label for="floating_last_name" class="peer-focus:font-medium absolute  text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-black-600 peer-focus:dark:text-black-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Last name</label>
               </div>
             </div>
-
+            <div class="grid xl:grid-cols-2 xl:gap-6">
+              <div class="relative z-0 w-full mb-6 group">
+                  <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="floating_phone" id="floating_phone" class="block py-2.5 px-0 w-full  text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-black dark:border-gray-600 dark:focus:border-black-500 focus:outline-none focus:ring-0 focus:border-black-600 peer" placeholder=" " required="">
+                  <label for="floating_phone" class="peer-focus:font-medium absolute  text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-black-600 peer-focus:dark:text-black-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Phone number (123-456-7890)</label>
+              </div>
+              <div class="relative z-0 w-full mb-6 group">
+                  <input type="text" name="floating_company" id="floating_company" class="block py-2.5 px-0 w-full  text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-black dark:border-gray-600 dark:focus:border-black-500 focus:outline-none focus:ring-0 focus:border-black-600 peer" placeholder=" " required="">
+                  <label for="floating_company" class="peer-focus:font-medium absolute  text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-black-600 peer-focus:dark:text-black-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Company (Ex. Google)</label>
+              </div>
+            </div>
+            <button type="submit" class="PrimaryBtnDark ">Submit</button>
+          </form>
+          
+         
 
           </div>
         </div>
@@ -116,12 +131,12 @@
 
     <!-- footer section  -->
     
-<footer class="p-4 bg-white sm:p-6 dark:bg-white-800">
+<footer class="p-4 bg-white sm:p-6 dark:bg-black-800">
     <div class="md:flex md:justify-between">
         <div class="mb-6 md:mb-0">
             <a href="../index.html" class="flex items-center">
                 <img src="/./Images/Indianpreneur footer.png" class="mr-2 h-14 sm:h-16" alt="Indianpreneur Logo">
-                <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap ">Flowbite</span> -->
+                <!-- <span class="self-center text-2xl font-semibold blackspace-nowrap ">Flowbite</span> -->
             </a>
         </div>
         <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -176,7 +191,7 @@
     </div>
     <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
     <div class="sm:flex sm:items-center sm:justify-between">
-        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="#" class="hover:underline">Indianpreneur</a>. All Rights Reserved.
+        <span class=" text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="#" class="hover:underline">Indianpreneur</a>. All Rights Reserved.
         </span>
         <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a href="https://www.linkedin.com/company/indianpreneur/" target="_blank" class="text-gray-500 hover:text-gray-900 dark:hover:text-black">
