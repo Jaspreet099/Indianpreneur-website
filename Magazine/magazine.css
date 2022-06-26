@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.head{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #ffffff;
+}
+
+
+.PrimaryBtn{
+    border-radius: 12px;
+    color: #ffffff;
+    padding: 8px 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    /* background: #ECF0F3; */
+    border: 3px solid #ffffff;
+}
+
+.PrimaryBtn:hover{
+    /* background-color: white; */
+    box-shadow: 0px 9px 0px #ffffff;
+    transition: 300ms ease-in-out;
+}
+
+.Maga h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #EC1D25;
+}
+.Maga h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #151515;
+}
+
+.Maga img{
+    filter: drop-shadow(0px 12px 16px rgba(0, 0, 0, 0.36));
+}
