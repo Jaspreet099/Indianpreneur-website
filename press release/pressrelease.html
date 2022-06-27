@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./NavBar/nav.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../Magazine/magazine.css">
+    <link rel="stylesheet" href="../NavBar/nav.css">
+    <link rel="stylesheet" href="./videointerview.css">
+    <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.7/dist/flowbite.min.css" />
     <script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="icon" href="./Images/Indianpreneurico.ico" type="image/x-icon">
+    <link rel="icon" href="../Images/Indianpreneurico.ico" type="image/x-icon">
     <title>Indianpreneur</title>
 </head>
 
@@ -23,29 +25,6 @@
             $("#nav-placeholder").replaceWith(data);
         });
     </script> -->
-
-    <!-- popup alert -->
-    <div class="pop-alert text-white px-6 py-2 border-0  relative bg-red-500">
-        <span class="text-xl inline-block mr-5 align-middle">
-          <i class="fas fa-bell"></i>
-        </span>
-        <span class=" inline-block align-middle  text-xs">
-         <p> <b class="capitalize">Coming soon!</b> 10 Influential Indianpreneur to Watch Worldwide 2022 </p>
-        </span>
-        <button class="absolute bg-transparent text-2xl font-semibold leading-none right-0 top-0 mt-2 mr-6 outline-none focus:outline-none" onclick="closeAlert(event)">
-          <span>×</span>
-      
-        </button>
-      </div>
-      <script>
-        function closeAlert(event){
-          let element = event.target;
-          while(element.nodeName !== "BUTTON"){
-            element = element.parentNode;
-          }
-          element.parentNode.parentNode.removeChild(element.parentNode);
-        }
-      </script>
 
     <!-- NavBar -->
     <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5  dark:bg-whoi-800" id="nav-placeholder">
@@ -76,16 +55,16 @@
                             class=" block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-900  ">Article</a>
                     </li>
                     <li>
-                        <a href="./Magazine/magazine.html"
+                        <a href="../Magazine/magazine.html"
                             class="block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-900  ">Magazine</a>
                     </li>
                     <li>
-                        <a href="./VideoInterview/videointerview.html"
+                        <a href="../VideoInterview/videointerview.html"
                             class="block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-900  ">Video
                             Interview</a>
                     </li>
                     <li>
-                        <a href="./press release/pressrelease.html"
+                        <a href="./pressrelease.html"
                             class="block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-900  ">Press
                             Release</a>
                     </li>
@@ -98,63 +77,59 @@
         </div>
     </nav>
 
-    <!-- imagesection -->
+   
+    <!-- magazine section -->
+
     <section class="text-gray-600 body-font">
-        <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-            <img class="heroImg  object-cover object-center rounded" alt="hero" src="./Images/hero section.png">
-    </section>
-
-    <!-- text -->
-    <section class="para">
-        <div class="container px-5 mx-auto">
-            <div class="flex flex-col text-center w-full mb-12">
-                <p class=" lg:w-11/12 mx-auto leading-relaxed text-left"><span>Indianpreneur</span> is an Indian global
-                    <span>entrepreneur magazine</span> where we offers an interview with an Indian leaders who is doing
-                    business in India and worldwide.</p> <br>
-                <p class=" lg:w-11/12 mx-auto leading-relaxed text-left">Our focus is to cover success stories of
-                    <span>Indianpreneur from local to global.</span> Young Indian startups to leading legend
-                    Indianpreneurs who sum up from struggling to success. </p> <br>
-                <p class=" lg:w-11/12 mx-auto leading-relaxed text-left">There are many Indian entrepreneurs who are
-                    coming from tier 2 and 3 cities. Expanding their business from India to global market. Also some of
-                    them leading in the global market. Empowering them with the voice they deserve to bring their
-                    stories and ideas to the stage. </p> <br>
-                <p class=" lg:w-11/12 mx-auto leading-relaxed text-left"><span>We provide budding entrepreneurs the
-                        recognition they deserve and hence, bring them one step closer to success. </span></p> <br>
-                <p class=" lg:w-11/12 mx-auto leading-relaxed text-left">We provides an ideal platform for the Indian
-                    leaders to showcase their products and services, share their achievements, and enhance their
-                    reputation in the industry. Also
-                    to express themselves while sharing their inspiring entrepreneur journey via interviews, press
-                    releases, article and various monthly issue. </p> <br>
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap w-full mb-20">
+            <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+              <h1 class="head ">Indianpreneur Video Interview</h1>
+              <div class="mt-1 h-1 w-24 bg-red-600 rounded"></div>
+              <!-- <div class="mt-6"> <button
+                class="PrimaryBtn  text-lg"><a
+                  href="./subscibe.html">Subscibe Free</a></button></div>
+            </div> -->
+           
+            <!-- <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p> -->
+          </div>
+          </div>
+          <div class="Maga flex flex-wrap ">
+            <div class="xl:w-2/4 md:w-1/4 p-4">
+              <div class="bg-gray-100 w-full p-6 rounded-lg">
+                <iframe class="w-full aspect-video ..." src="https://www.youtube.com/embed/3KBx--duewQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
             </div>
-    </section>
+            <div class="xl:w-2/4 md:w-3/4 p-4">
+              <div class="bg-gray-100 w-full p-6 rounded-lg">
+                <iframe class="w-full aspect-video ..." src="https://www.youtube.com/embed/3KBx--duewQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="xl:w-2/4 md:w-3/4 p-4">
+              <div class="bg-gray-100 w-full p-6 rounded-lg">
+                <iframe class="w-full aspect-video ..." src="https://www.youtube.com/embed/3KBx--duewQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="xl:w-2/4 md:w-3/4 p-4">
+              <div class="bg-gray-100 w-full p-6 rounded-lg">
+                <iframe class="w-full aspect-video ..." src="https://www.youtube.com/embed/3KBx--duewQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+        </div>
+      </section>
 
-    <!-- image section -->
-    <div class="container flex flex-wrap mx-auto">
-        <div class="w-full p-2 rounded lg:w-1/3">
-            <img src="./Images/Ravi.png"
-                alt="image">
-        </div>
-        <div class="w-full p-2 rounded lg:w-1/3">
-            <img src="./Images/Vibha.png"
-                alt="image">
-        </div>
-        <div class="w-full p-2 rounded lg:w-1/3">
-            <img src="./Images/abhishek.png"
-                alt="image">
-        </div>
-        <div class="w-full p-2 rounded lg:w-1/3">
-            <img src="./Images/amit.png"
-                alt="image">
-        </div>
-    </div>
+
+
+
+    
 
     <!-- footer section  -->
     
 <footer class="p-4 bg-white sm:p-6 dark:bg-white-800">
     <div class="md:flex md:justify-between">
         <div class="mb-6 md:mb-0">
-            <a href="./index.html" class="flex items-center">
-                <img src="/./Images/Indianpreneur footer.png" class="mr-2 h-14 sm:h-16" alt="Indianpreneur Logo">
+            <a href="../index.html" class="flex items-center">
+                <img src="/./Images/Indianpreneur footer.png" class="mr-2 h-14 sm:h-20" alt="Indianpreneur Logo">
                 <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap ">Flowbite</span> -->
             </a>
         </div>
@@ -167,13 +142,13 @@
                         <a href="#" class="hover:underline ">Article</a>
                     </li>
                     <li>
-                        <a href="./Magazine/magazine.html" class="hover:underline ">Magazine</a>
+                        <a href="../Magazine/magazine.html" class="hover:underline ">Magazine</a>
                     </li>
                     <li>
-                        <a href="./VideoInterview/videointerview.html" class="hover:underline ">Video Interview</a>
+                        <a href="../VideoInterview/videointerview.html" class="hover:underline ">Video Interview</a>
                     </li>
                     <li>
-                        <a href="./press release/pressrelease.html" class="hover:underline ">Press Release</a>
+                        <a href="./pressrelease.html" class="hover:underline ">Press Release</a>
                     </li>
                     <li>
                         <a href="#" class="hover:underline ">Contact</a>
