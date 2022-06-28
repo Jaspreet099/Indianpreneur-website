@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home1/indiaskt/public_html/repositories/Indianpreneur-website 
+    - export DEPLOYPATH=/home1/indiaskt/repositories/Indianpreneur-website
     - /bin/cp * $DEPLOYPATH
