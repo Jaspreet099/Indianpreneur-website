@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Magazine/magazine.css">
+    <link rel="stylesheet" href="../NavBar/nav.css">
+    <link rel="stylesheet" href="../press release/pressrelease.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.7/dist/flowbite.min.css" />
+    <script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="../Images/Indianpreneurico.ico" type="image/x-icon">
+    <title>Indianpreneur</title>
+</head>
+
+<body>
+    <!-- <div id="nav-placeholder"></div>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+        $.get("./NavBar/nav.html", function (data) {
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script> -->
+
+    <!-- NavBar -->
+    <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5  dark:bg-whoi-800" id="nav-placeholder">
+        <div class="container flex flex-wrap justify-between items-center mx-auto">
+            <a href="../index.html" class="flex items-center">
+                <img src="../Images/Indianpreneur logo.png" class="mr-3 h-14 sm:h-20" alt="Indianpreneur logo">
+                <!-- <span class="self-center text-xl font-semibold whitespace-nowrap ">Flowbite</span> -->
+            </a>
+            <button data-collapse-toggle="mobile-menu" type="button"
+                class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-900  dark:focus:ring-gray-600"
+                aria-controls="mobile-menu" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                        clip-rule="evenodd"></path>
+                </svg>
+                <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
+                <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+                    <li>
+                        <a href="./article.html"
+                            class=" block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-900  ">Article</a>
+                    </li>
+                    <li>
+                        <a href="../Magazine/magazine.html"
+                            class="block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-900  ">Magazine</a>
+                    </li>
+                    <li>
+                        <a href="../VideoInterview/videointerview.html"
+                            class="block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-900  ">Video
+                            Interview</a>
+                    </li>
+                    <li>
+                        <a href="../press release/pressrelease.html"
+                            class="block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-900  ">Press
+                            Release</a>
+                    </li>
+                    <li>
+                        <a href="../Contact/contact.html"
+                            class="block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-900 ">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   
+    <!-- magazine section -->
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 pt-24 mx-auto">
+          <div class="flex flex-wrap w-full mb-20">
+            <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+              <h1 class="head ">Press Release</h1>
+              <div class="mt-1 h-1 w-24 bg-red-600 rounded"></div>
+              <!-- <div class="mt-6"> <button
+                class="PrimaryBtn  text-lg"><a
+                  href="./subscibe.html">Subscibe Free</a></button></div>
+            </div> -->
+           
+            <!-- <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p> -->
+          </div>
+          </div>
+    
+        </div>
+      </section>
+
+
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 pb-24 mx-auto">
+          <div class="flex flex-wrap -m-4">
+
+            <div class="press p-4 md:w-1/3">
+              <div class="h-full border-4 border-white-900 border-opacity-40 rounded-xl overflow-hidden">
+                <img class="lg:h-72 md:h-36 w-full object-cover object-center" src="https://img.etimg.com/thumb/msid-92402020,width-300,imgsize-47672,,resizemode-4,quality-100/blockchain1_getty.jpg" alt="blog">
+                <div class=" p-6">
+                  <!-- <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1> -->
+                  <p class="leading-relaxed mb-3">RBI taps top banks including HDFC, ICICI, SBI for blockchain-based trade financing project</p>
+                  <div class="flex items-center flex-wrap ">
+                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="https://economictimes.indiatimes.com/industry/banking/finance/banking/rbi-taps-top-banks-including-hdfc-icici-sbi-for-blockchain-based-trade-financing-project/articleshow/92401864.cms" target="_blank">Read More
+                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a> 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="press p-4 md:w-1/3">
+              <div class="h-full border-4 border-white-900 border-opacity-40 rounded-xl overflow-hidden">
+                <img class="lg:h-72 md:h-36 w-full object-cover object-center" src="https://aniportalimages.s3.amazonaws.com/media/details/unnamdf2022060813310020220608134015.jpg" alt="blog">
+                <div class=" p-6">
+                  <!-- <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1> -->
+                  <p class="leading-relaxed mb-3">AcknoLedger announces 100th partnership with Gems</p>
+                  <div class="flex items-center flex-wrap ">
+                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="https://www.aninews.in/news/business/business/acknoledger-announces-100th-partnership-with-gems20220608191105/" target="_blank">Read More
+                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a> 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="press p-4 md:w-1/3">
+              <div class="h-full border-4 border-white-900 border-opacity-40 rounded-xl overflow-hidden">
+                <img class="lg:h-72 md:h-36 w-full object-cover object-center" src="https://s32659.pcdn.co/wp-content/uploads/2019/06/bic_FB_Mark.jpg.webp" alt="blog">
+                <div class=" p-6">
+                  <!-- <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1> -->
+                  <p class="leading-relaxed mb-3">Mark Zuckerberg Launches Meta Pay, the Digital Wallet for the Metaverse</p>
+                  <div class="flex items-center flex-wrap ">
+                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="https://beincrypto.com/mark-zuckerberg-launches-meta-pay-the-digital-wallet-for-the-metaverse/" target="_blank">Read More
+                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a> 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="press p-4 md:w-1/3">
+              <div class="h-full border-4 border-white-900 border-opacity-40 rounded-xl overflow-hidden">
+                <img class="lg:h-72 md:h-36 w-full object-cover object-center bg-white" src="https://indiaeducationdiary.in/wp-content/uploads/2022/02/LOGO-Png-750x430.png" alt="blog">
+                <div class=" p-6">
+                  <!-- <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1> -->
+                  <p class="leading-relaxed mb-3">KIZOI Launches All In One App For Pre School Learning From Home</p>
+                  <div class="flex items-center flex-wrap ">
+                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="https://indiaeducationdiary.in/kizoi-launches-all-in-one-app-for-pre-school-learning-from-home/" target="_blank">Read More
+                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a> 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="press p-4 md:w-1/3">
+              <div class="h-full border-4 border-white-900 border-opacity-40 rounded-xl overflow-hidden">
+                <img class="lg:h-72 md:h-36 w-full object-cover object-center bg-white" src="https://etimg.etb2bimg.com/photo/92343526.cms" alt="blog">
+                <div class=" p-6">
+                  <!-- <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1> -->
+                  <p class="leading-relaxed mb-3">Ola's first all-electric sedan design teased: Launch expected in 2023</p>
+                  <div class="flex items-center flex-wrap ">
+                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="https://auto.economictimes.indiatimes.com/news/passenger-vehicle/cars/olas-first-all-electric-sedan-design-teased-launch-expected-in-2023/92343514" target="_blank">Read More
+                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a> 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="press p-4 md:w-1/3">
+              <div class="h-full border-4 border-white-900 border-opacity-40 rounded-xl overflow-hidden">
+                <img class="lg:h-72 md:h-36 w-full object-cover object-center bg-white" src="https://fdn.gsmarena.com/imgroot/news/22/06/solana-mobile-saga/inline/-1200/gsmarena_001.jpg" alt="blog">
+                <div class=" p-6">
+                  <!-- <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1> -->
+                  <p class="leading-relaxed mb-3">Osom OV1 is now the Solana Saga, a blockchain-focused smartphone</p>
+                  <div class="flex items-center flex-wrap ">
+                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="https://www.gsmarena.com/osom_ov1_is_now_the_solana_saga_a_blockchainfocused_smartphone-news-54788.php" target="_blank">Read More
+                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a> 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+    
+
+    <!-- footer section  -->
+    
+<footer class="p-4 bg-white sm:p-6 dark:bg-white-800">
+    <div class="md:flex md:justify-between">
+        <div class="mb-6 md:mb-0">
+            <a href="../index.html" class="flex items-center">
+                <img src="/./Images/Indianpreneur footer.png" class="mr-2 h-14 sm:h-20" alt="Indianpreneur Logo">
+                <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap ">Flowbite</span> -->
+            </a>
+        </div>
+        <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+            <div>
+                <h2 class="Fhead mb-6  ">Useful links</h2>
+                <ul class="text-gray-600 dark:text-gray-400">
+                
+                    <li>
+                        <a href="./article.html" class="hover:underline ">Article</a>
+                    </li>
+                    <li>
+                        <a href="../Magazine/magazine.html" class="hover:underline ">Magazine</a>
+                    </li>
+                    <li>
+                        <a href="../VideoInterview/videointerview.html" class="hover:underline ">Video Interview</a>
+                    </li>
+                    <li>
+                        <a href="../press release/pressrelease.html" class="hover:underline ">Press Release</a>
+                    </li>
+                    <li>
+                        <a href="../Contact/contact.html" class="hover:underline ">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="Fhead mb-6  ">Legal</h2>
+                <ul class="text-gray-600 dark:text-gray-400">
+                    <li class="mb-4">
+                        <a href="#" class="hover:underline">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="Fhead mb-6  ">Get in touch</h2>
+                <ul class="text-gray-600 dark:text-gray-400">
+                    <li class="mb-4">
+                        <a href="mailto:info@indianpreneur.co" class="text-gray-500 hover:text-gray-900 text-black ">info@indianpreneur.co</a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="#" class="location text-gray-500 hover:text-gray-900 text-black"> <i class="fa-solid fa-location-dot"></i>  1300 Rachel Terrace  <br> Pine Brook, NJ 07058, USA </a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="#" class="location text-gray-500 hover:text-gray-900 text-black"> <i class="fa-solid fa-location-dot"></i>  224, Domlur <br> Bangalore, India 560071 </a>
+                    </li>
+                   
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
+    <div class="sm:flex sm:items-center sm:justify-between">
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="#" class="hover:underline">Indianpreneur</a>. All Rights Reserved.
+        </span>
+        <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+            <a href="https://www.linkedin.com/company/indianpreneur/" target="_blank" class="text-gray-500 hover:text-gray-900 dark:hover:text-black">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://twitter.com/Indianpreneur01" target="_blank" class="text-gray-500 hover:text-gray-900 dark:hover:text-black">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+           
+            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-black">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+           
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>
