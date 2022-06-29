@@ -15,3 +15,29 @@
     font-size: 18px;
     color: #ffffff;
 }
+
+.head{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.PrimaryBtn{
+    border-radius: 12px;
+    color: #ffffff;
+    padding: 8px 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    /* background: #ECF0F3; */
+    border: 3px solid #ffffff;
+}
+
+.PrimaryBtn:hover{
+    /* background-color: white; */
+    box-shadow: 0px 9px 0px #ffffff;
+    transition: 300ms ease-in-out;
+}
