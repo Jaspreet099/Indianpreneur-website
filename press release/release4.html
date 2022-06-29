@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Magazine/magazine.css">
+    <link rel="stylesheet" href="../NavBar/nav.css">
+    <link rel="stylesheet" href="./pressrelease.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.7/dist/flowbite.min.css" />
+    <script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="../Images/Indianpreneurico.ico" type="image/x-icon">
+    <title>Indianpreneur</title>
+</head>
+
+<body>
+    <!-- <div id="nav-placeholder"></div>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+        $.get("./NavBar/nav.html", function (data) {
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script> -->
+
+    <!-- NavBar -->
+    <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5  dark:bg-whoi-800" id="nav-placeholder">
+        <div class="container flex flex-wrap justify-between items-center mx-auto">
+            <a href="../index.html" class="flex items-center">
+                <img src="../Images/Indianpreneur logo.png" class="mr-3 h-14 sm:h-20" alt="Indianpreneur logo">
+                <!-- <span class="self-center text-xl font-semibold whitespace-nowrap ">Flowbite</span> -->
+            </a>
+            <button data-collapse-toggle="mobile-menu" type="button"
+                class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-900  dark:focus:ring-gray-600"
+                aria-controls="mobile-menu" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                        clip-rule="evenodd"></path>
+                </svg>
+                <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
+                <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+                    <li>
+                        <a href="../Article/article.html"
+                            class=" block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-900  ">Article</a>
+                    </li>
+                    <li>
+                        <a href="../Magazine/magazine.html"
+                            class="block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-900  ">Magazine</a>
+                    </li>
+                    <li>
+                        <a href="../VideoInterview/videointerview.html"
+                            class="block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-900  ">Video
+                            Interview</a>
+                    </li>
+                    <li>
+                        <a href="./pressrelease.html"
+                            class="block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-900  ">Press
+                            Release</a>
+                    </li>
+                    <li>
+                        <a href="../Contact/contact.html"
+                            class="block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-900 ">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- magazine section -->
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 pt-24 mx-auto">
+            <div class="flex flex-wrap w-full mb-20">
+                <div class="lg:w-3/4 w-full mb-6 lg:mb-0">
+                    <h1 class="head ">KIZOI Launches All In One App For Pre School Learning From Home
+                    </h1>
+                    <div class="mt-1 h-1 w-36 bg-red-600 rounded"></div>
+                    <!-- <div class="mt-6"> <button
+                class="PrimaryBtn  text-lg"><a
+                  href="./subscibe.html">Subscibe Free</a></button></div>
+            </div> -->
+
+                    <!-- <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p> -->
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="para">
+        <div class="container px-5 mx-auto">
+            <div class="flex flex-col text-center w-full mb-12">
+                <img class="lg:h-72 md:h-72 lg:w-2/6 md:w-full object-cover object-center bg-white"
+                    src="https://indiaeducationdiary.in/wp-content/uploads/2022/02/LOGO-Png-750x430.png" alt="blog">
+                <p class="  mx-auto leading-relaxed text-left pt-11">Meta has rebranded its Facebook Pay digital wallet
+                    as Meta Pay, calling the change the “first step” toward the company creating a wallet for its
+                    version of the metaverse.</p> <br>
+                <p class="   leading-relaxed text-left ">Meta CEO Mark Zuckerberg published a post on Facebook,
+                    saying that Meta Pay would replace Facebook Pay and have additional features.</p> <br>
+                <p class="  mx-auto leading-relaxed text-left "> The wallet will be used for Meta’s metaverse platform;
+                    users will be able to “securely manage your
+                    identity, what you own, and how you pay.” It will still allow users to transact on Facebook,
+                    Instagram, WhatsApp, Messenger, and other supported platforms.</p> <br>
+                <p class="   leading-relaxed text-left ">Zuckerberg lists out specific ways that users will be able to
+                    use Meta Pay in the metaverse. These include buying art, videos, music, digital clothing, tickets to
+                    virtual events, and experiences. </p> <br>
+                <p class="   leading-relaxed text-left ">“The more places you can easily use your digital goods, the more you’ll value them, which creates a bigger market for creators. The more easily you can transact, the bigger the opportunity for creators should get as well. We’re looking forward to building this out,” he said.</p> <br>
+                <p class="   leading-relaxed text-left ">There was also a hint that Meta could introduce non-fungible tokens (NFTs) in the future. “Proof of ownership will be important, especially if you want to take some of these items with you across different services,” added Zuckerberg. </p> <br>
+                <h1 class="head text-left">Meta’s metaverse pilot gathering speed
+                </h1>
+                <p class="   leading-relaxed text-left ">Meta is now firmly a metaverse first company, even if it is experiencing heavy expenditure in the short term. The company has poured billions into metaverse research and development but has little to show for it so far.</p> <br>
+                <p class="   leading-relaxed text-left ">However, that might change soon, and the company is already trialing some aspects of the tech with pilots in Hong Kong. The company and its executives seem to firmly believe in the potential of the technology and will work hard to be the first mover.</p> <br>
+                <h1 class="head text-left">Meta and Microsoft agree on open standards
+                </h1>
+                <p class="   leading-relaxed text-left ">Earlier in the week, Microsoft, Meta, Epic Games, and 33 other companies agreed to collaborate on open standards for the metaverse. Called the Metaverse Standards Forum, the group will work on forming open, interoperable standards for augmented and virtual reality, geospatial, and 3D tech.</p> <br>
+                <p class="   leading-relaxed text-left ">The primary goal of the group is to discuss where a lack of interoperability is holding the emerging metaverse industry back. It is not surprising that these tech giants would want to collaborate on fundamentally interconnected technology, and the business potential itself is high, with over $600 billion in value projected by 2026.</p> <br>
+                
+                <div class="mt-6"> <button class="PrimaryBtn  text-lg"><a href="./pressrelease.html">Back</a></button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- footer section  -->
+
+    <footer class="p-4 bg-white sm:p-6 dark:bg-white-800">
+        <div class="md:flex md:justify-between">
+            <div class="mb-6 md:mb-0">
+                <a href="../index.html" class="flex items-center">
+                    <img src="/./Images/Indianpreneur footer.png" class="mr-2 h-14 sm:h-20" alt="Indianpreneur Logo">
+                    <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap ">Flowbite</span> -->
+                </a>
+            </div>
+            <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                <div>
+                    <h2 class="Fhead mb-6  ">Useful links</h2>
+                    <ul class="text-gray-600 dark:text-gray-400">
+
+                        <li>
+                            <a href="../Article/article.html" class="hover:underline ">Article</a>
+                        </li>
+                        <li>
+                            <a href="../Magazine/magazine.html" class="hover:underline ">Magazine</a>
+                        </li>
+                        <li>
+                            <a href="../VideoInterview/videointerview.html" class="hover:underline ">Video Interview</a>
+                        </li>
+                        <li>
+                            <a href="./pressrelease.html" class="hover:underline ">Press Release</a>
+                        </li>
+                        <li>
+                            <a href="../Contact/contact.html" class="hover:underline ">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="Fhead mb-6  ">Legal</h2>
+                    <ul class="text-gray-600 dark:text-gray-400">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="Fhead mb-6  ">Get in touch</h2>
+                    <ul class="text-gray-600 dark:text-gray-400">
+                        <li class="mb-4">
+                            <a href="mailto:info@indianpreneur.co"
+                                class="text-gray-500 hover:text-gray-900 text-black ">info@indianpreneur.co</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="location text-gray-500 hover:text-gray-900 text-black"> <i
+                                    class="fa-solid fa-location-dot"></i> 1300 Rachel Terrace <br> Pine Brook, NJ 07058,
+                                USA </a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="location text-gray-500 hover:text-gray-900 text-black"> <i
+                                    class="fa-solid fa-location-dot"></i> 224, Domlur <br> Bangalore, India 560071 </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
+        <div class="sm:flex sm:items-center sm:justify-between">
+            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="#"
+                    class="hover:underline">Indianpreneur</a>. All Rights Reserved.
+            </span>
+            <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+                <a href="https://www.linkedin.com/company/indianpreneur/" target="_blank"
+                    class="text-gray-500 hover:text-gray-900 dark:hover:text-black">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://twitter.com/Indianpreneur01" target="_blank"
+                    class="text-gray-500 hover:text-gray-900 dark:hover:text-black">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+
+                <a href="https://www.youtube.com/channel/UCDva2orQF41tOylISHuogzg" target="_blank"
+                    class="text-gray-500 hover:text-gray-900 dark:hover:text-black">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
