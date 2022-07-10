@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Magazine/magazine.css">
+    <link rel="stylesheet" href="../NavBar/nav.css">
+    <link rel="stylesheet" href="../pressrelease/pressrelease.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.7/dist/flowbite.min.css" />
+    <script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="../Images/Indianpreneurico.ico" type="image/x-icon">
+    <title>Indianpreneur</title>
+</head>
+
+<body>
+    <!-- <div id="nav-placeholder"></div>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+        $.get("./NavBar/nav.html", function (data) {
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script> -->
+
+    <!-- NavBar -->
+    <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5  dark:bg-whoi-800" id="nav-placeholder">
+        <div class="container flex flex-wrap justify-between items-center mx-auto">
+            <a href="../index.html" class="flex items-center">
+                <img src="../Images/Indianpreneur logo.png" class="mr-3 h-14 sm:h-20" alt="Indianpreneur logo">
+                <!-- <span class="self-center text-xl font-semibold whitespace-nowrap ">Flowbite</span> -->
+            </a>
+            <button data-collapse-toggle="mobile-menu" type="button"
+                class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-900  dark:focus:ring-gray-600"
+                aria-controls="mobile-menu" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                        clip-rule="evenodd"></path>
+                </svg>
+                <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
+                <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+                    <li>
+                        <a href="../Article/article.html"
+                            class=" block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-900  ">Article</a>
+                    </li>
+                    <li>
+                        <a href="../Magazine/magazine.html"
+                            class="block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-900  ">Magazine</a>
+                    </li>
+                    <li>
+                        <a href="../VideoInterview/videointerview.html"
+                            class="block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-900  ">Video
+                            Interview</a>
+                    </li>
+                    <li>
+                        <a href="../pressrelease/pressrelease.html"
+                            class="block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-900  ">Press
+                            Release</a>
+                    </li>
+                    <li>
+                        <a href="../Contact/contact.html"
+                            class="block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-900 ">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- magazine section -->
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 pt-24 mx-auto">
+            <div class="flex flex-wrap w-full mb-20">
+                <div class="lg:w-3/4 w-full mb-6 lg:mb-0">
+                    <h1 class="head ">Future of Supply chain & Metaverse</h1>
+                    <div class="mt-1 h-1 w-36 bg-red-600 rounded"></div>
+                    <!-- <div class="mt-6"> <button
+                class="PrimaryBtn  text-lg"><a
+                  href="./subscibe.html">Subscibe Free</a></button></div>
+            </div> -->
+
+                    <!-- <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p> -->
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="para">
+        <div class="container px-5 mx-auto">
+            <div class="flex flex-col text-center w-full mb-12">
+                <img class="lg:h-72 md:h-72 lg:w-2/6 md:w-full object-cover object-center"
+                    src="./2.JPG"
+                    alt="blog">
+                <p class="  mx-auto leading-relaxed text-left pt-11"> 
+                    Mr. Satish Kumar Malhotra, is the Director of Sales & Marketing at Springfit one of India’s leading orthopaedic mattress manufacturer of India. With an indepth knowledge and widely known for his expertise in various aspects of mattress industry Mr. Malhotra has spent more than 45 years in Springfit. He began his mattress industry journey back in 1975 with a vision of creating a comfort mattress brand to provide unique sleep solutions to its consumers.
+                     
+                    Metaverse isn’t a new idea. It has got a presence in the market for a few years now but the concept got elevated recently only, given one of the social media giants renaming itself Meta last year, which definitely has brought metaverse to wider public attention. Considering that then, we should notice an essential growth in a variety of courses overlaying this topic. 
+                    However, pinning down exactly what metaverse is, can be problematic as the term itself is still evolving, however, there are key traits that can be used to understand its advantages. Metaverse was designed to combine digital content with physical truth into an immersive revel and frequently involves communicating with different human beings through digital or augmented fact (VR/AR) generation.  Metaverse also permits customers to own, borrow, buy, promote and trade and this will continue to derive change and adapt as the technology does, allowing a limitless wide variety of metaverses.
+                    
+                    </p> <br>
+                    
+                    <h1 class="head text-left"> But, how Metaverse will assist supply chain management?
+                    </h1>
+                    <p class="  mx-auto leading-relaxed text-left pt-4">The rise of the metaverse is sure to lead to the creation of new marketing techniques and opportunities to explore the 3D virtual world. The Metaverse is a nexus of markets, decentralized government, digital identities, and other elements.
+                        In recent times, e-trade has increasingly shaped our buying behavior, with shops promising same-day shipping to meet clients’ expectations. Customers can rush onto platforms such as Flipkart, Myntra, or Amazon to finish their purchases with just a few clicks of a button. In spite of this, the era is continuously evolving, and retailers should also adapt their working fashions and approach to stay applicable and aggressive.
+                        Massive brand names like Louis Vuitton, Burberry, Timberland, and Adidas are already taking gain of the Metaverse and use of it for their one-of-a-kind virtual merchandise. With the gradual improvement of the metaverse, there are gigantic opportunities for both purchaser merchandise and e-commerce players to reimagine.
+                        Supply chain management works on handling the production of the goods or services from the beginning to the end by supplying them to the consumers. Any company or organization often makes a chain of suppliers to deliver the product from the suppliers as a raw material to the company as a terminal product that is provided to the customer as a final product. It works on monitoring the movement of both the materials and the relevant information by providing the access to the programs and the strategies. The supply chain network tries to record the relationship between the supplier and the business and establish long-term objectives that will aid in the expansion of the latter. 
+                        The metaverse is now the future, promising betterment in every field. If we talk about the business, metaverse simply connects the consumer to explore what they need virtually. Which makes it easy for them to prospect more about the products and also expands the options for them.
+                        Most of the supply chain management executives support the involvement of metaverse, they are in high expectance that this will create a positive impact on their organization.
+                        The largest advantages the metaverse will offer to the supply chain consist of:
+                        
+                        </p> <br>
+                    <h1 class="head text-left"> Enormous modifications in how companies balance demand and supply
+                    </h1>
+                    <p class="  mx-auto leading-relaxed text-left pt-4">The immersive nature of the metaverse enables the company to interact more with clients and have extra visibility of them for the duration of the shopping system. On the subject of supply, combining AR and VR with actual-time, multi-supply data can offer greater robust visibility into supply chain techniques and facilities and attributes which include inventory and capacity. Via the metaverse, being in a distinct room, building, state, or country won’t matter, as it will facilitate everybody concerned in the supply chain to collaborate and make quicker, more potent selections.
+                        
+                        </p> <br>
+                    <h1 class="head text-left"> Unique statistics for planning and insights
+                    </h1>
+                    <p class="  mx-auto leading-relaxed text-left pt-4">With the metaverse fostering an extra customized and automatic environment, people can easily and richly dictate what they see, interact with, and revel in. As a result, firms may also be able to construct and offer those experiences. And it all begins with products. Products will evolve past their passive role in supply chains where they may be planned, produced, and shipped to rather grow to be actively involved in influencing how they’re made, added, and enjoyed past their sale to a patron with the aid of mastering, watching and working autonomously.
+                        
+                        </p> <br>
+                    <h1 class="head text-left">Dramatically evolve merchandise
+                    </h1>
+                    <p class="  mx-auto leading-relaxed text-left pt-4">Supply chains usually approach inventory optimization or S&OP technique by way of separating the tactics into smaller additives, in element to mirror organizational structures but also to make it less complicated for a device to cope with. The computing energy designed to create the metaverse will remedy these issues without separating the techniques, instead of using a previously non-existent ability to allow companies to get rid of the delineation between planning and executing.
+                        
+                        </p> <br>
+                
+                <div class="mt-6"> <button
+                    class="PrimaryBtn  text-lg"><a
+                      href="./article.html">Back</a></button></div>
+                </div>
+            
+            </div>
+    </section>
+
+   
+
+    <!-- footer section  -->
+
+    <footer class="p-4 bg-white sm:p-6 dark:bg-white-800">
+        <div class="md:flex md:justify-between">
+            <div class="mb-6 md:mb-0">
+                <a href="../index.html" class="flex items-center">
+                    <img src="/./Images/Indianpreneur footer.png" class="mr-2 h-14 sm:h-20" alt="Indianpreneur Logo">
+                    <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap ">Flowbite</span> -->
+                </a>
+            </div>
+            <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                <div>
+                    <h2 class="Fhead mb-6  ">Useful links</h2>
+                    <ul class="text-gray-600 dark:text-gray-400">
+
+                        <li>
+                            <a href="../Article/article.html" class="hover:underline ">Article</a>
+                        </li>
+                        <li>
+                            <a href="../Magazine/magazine.html" class="hover:underline ">Magazine</a>
+                        </li>
+                        <li>
+                            <a href="../VideoInterview/videointerview.html" class="hover:underline ">Video Interview</a>
+                        </li>
+                        <li>
+                            <a href="../pressrelease/pressrelease.html" class="hover:underline ">Press Release</a>
+                        </li>
+                        <li>
+                            <a href="../Contact/contact.html" class="hover:underline ">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="Fhead mb-6  ">Legal</h2>
+                    <ul class="text-gray-600 dark:text-gray-400">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="Fhead mb-6  ">Get in touch</h2>
+                    <ul class="text-gray-600 dark:text-gray-400">
+                        <li class="mb-4">
+                            <a href="mailto:info@indianpreneur.co"
+                                class="text-gray-500 hover:text-gray-900 text-black ">info@indianpreneur.co</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="location text-gray-500 hover:text-gray-900 text-black"> <i
+                                    class="fa-solid fa-location-dot"></i> 1300 Rachel Terrace <br> Pine Brook, NJ 07058,
+                                USA </a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="location text-gray-500 hover:text-gray-900 text-black"> <i
+                                    class="fa-solid fa-location-dot"></i> 224, Domlur <br> Bangalore, India 560071 </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
+        <div class="sm:flex sm:items-center sm:justify-between">
+            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="#"
+                    class="hover:underline">Indianpreneur</a>. All Rights Reserved.
+            </span>
+            <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+                <a href="https://www.linkedin.com/company/indianpreneur/" target="_blank"
+                    class="text-gray-500 hover:text-gray-900 dark:hover:text-black">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://twitter.com/Indianpreneur01" target="_blank"
+                    class="text-gray-500 hover:text-gray-900 dark:hover:text-black">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+
+                <a href="https://www.youtube.com/channel/UCDva2orQF41tOylISHuogzg" target="_blank"
+                    class="text-gray-500 hover:text-gray-900 dark:hover:text-black">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
