@@ -71,3 +71,11 @@ footer i{
     /* font-weight: 900; */
     /* font-size: 12px; */
 }
+
+.intro-footer{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #151515;
+}
